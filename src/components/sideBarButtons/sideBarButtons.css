@@ -1,0 +1,21 @@
+.sidebar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    color: white;
+    background-color: rgb(73, 67, 67);
+    border-radius: 7px;
+    margin-top: 10px;
+    border: none;
+}
+
+.sidebar-button:hover{
+    background-color: #D94188;
+}
+
+#selected{
+    background-color: #D94188;
+}

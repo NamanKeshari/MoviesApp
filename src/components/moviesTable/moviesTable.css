@@ -1,0 +1,8 @@
+.movies-table{
+    width: calc(100vw - 300px);
+    height: calc(100vh - 250px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid white;
+    color: white;
+    background-color: inherit;
+}

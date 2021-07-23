@@ -1,0 +1,29 @@
+.movies-table-row{
+    display: flex;
+    height: 16.66%;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+}
+
+.serial-number{
+    width: 10%;
+}
+
+.movie-name{
+    width: 30%;
+}
+
+.genre, .trailer, .rating{
+    width: 20%;
+}
+
+.trailer-image{
+    height: 70px;
+}

@@ -1,0 +1,37 @@
+.pagination{
+    width: calc(100vw - 400px);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination-button{
+    width: 40px;
+    height: 100%;
+    margin: 0;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(73, 67, 67);
+    border-radius: 5px;
+    border: none;
+}
+
+.pagination-button:hover{
+    background-color: #D94188;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #D94188;
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows.back{
+    margin-right: 10px;
+}
